@@ -19,7 +19,7 @@ Though I was familiar with Static sites (being a child of the 90's and growing u
 
 <img class="img-fluid col justify-content-center py-3" src="/assets/old-eleventy-blog.png" alt="My old Eleventy Blog" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/old-blog-scripts.png" alt="My old Eleventy Blog" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/old-blog-scripts.png" alt="Scripts & plug-in code on my old eleventy blog" width="550" height="315">
 
 I <em>really</em> struggled with the template when I first encountered it. I'd never used nunjucks before and I was completely unfamiliar with using templating languages to build web pages, having previously only ever worked with html and css stylesheets. I didn't understand how the different folders responded to each other, how the _site folder worked and why I couldn't put content in it - because that's where the indexes were?!
 

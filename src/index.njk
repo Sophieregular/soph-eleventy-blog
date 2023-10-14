@@ -4,11 +4,11 @@ layout: 'base.njk'
 ---
 <section class="container pb-3 justify-content-center text-center border-bottom border-secondary">
 <h1 >Hello! Welcome to my Eleventy Blog</h1>
-<p> This is a blog full of articles documenting my journey through the Coder's Guild's <em>'Intro to Web Design & Development'</em> Bootcamp Skills course. Feel free to have a read and see what I've been up to!</p>
+<p> This is a blog full of articles documenting my journey through the Coder's Guild's <em>'Intro to Web Design & Development'</em> Bootcamp Skills course. Have a read and see what I've been up to!</p>
 </section>
 
 <div class="container justify-content-center pt-5">
-    <h2 class="text-center">Latest Posts</h2>
+    <h2 class="text-center display-4">Latest Posts</h2>
         <ul>
             {%- for post in collections.post | reverse -%}
                 {% include 'article-snippet.njk' %}
