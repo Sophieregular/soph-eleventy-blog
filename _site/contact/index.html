@@ -30,20 +30,21 @@
 </header> 
 
     <main class="py-5">
-        <header class="container justify-content-center">
-<h1 class="text-center">Contact Me</h1>
+        <header class="container justify-content-center text-center">
+<h1 class="">Contact Me</h1>
+<p class="py-2">Thanks for visiting my blog!<br>If you'd like to get in touch, drop me a message:</p>
 </header>
 
-<section class="container text-center col">
+<section class="container text-center col py-2">
 <form name="contact" method="POST" onsubmit="return validateForm()" data-netlify="true">
     <p>
-        <label>Your Name: <input type="text" id="name" name="name" /></label>   
+        <label>Your Name: <input type="text" id="name" name="name" required/></label>   
     </p>
     <p>
-        <label>Your Email: <input type="email" id="email" name="email" /></label>
+        <label>Your Email: <input type="email" id="email" name="email" required/></label>
     </p>
     <p>
-        <label>Message: <textarea name="message"></textarea></label>
+        <label>Message: <textarea name="message"required></textarea></label>
     </p>
     <p>
         <button class="form_submit btn btn-outline-primary" type="submit">Send</button>
