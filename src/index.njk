@@ -8,7 +8,7 @@ layout: 'base.njk'
 </section>
 
 <div class="container justify-content-center pt-5">
-    <h2 class="text-center display-4">Latest Posts</h2>
+    <h2 class="text-center ">Latest Posts</h2>
         <ul>
             {%- for post in collections.post | reverse -%}
                 {% include 'article-snippet.njk' %}
