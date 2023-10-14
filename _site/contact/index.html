@@ -35,7 +35,7 @@
 </header>
 
 <section class="container text-center col">
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" onsubmit="return validateForm()" data-netlify="true">
     <p>
         <label>Your Name: <input type="text" id="name" name="name" /></label>   
     </p>
