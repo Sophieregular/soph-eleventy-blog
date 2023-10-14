@@ -31,9 +31,27 @@
 
     <main class="py-5">
         <header class="container justify-content-center">
-<h1 >Contact Me</h1>
-
+<h1 class="text-center">Contact Me</h1>
 </header>
+
+<section class="container text-center col">
+<form name="contact" method="POST" data-netlify="true">
+    <p>
+        <label>Your Name: <input type="text" id="name" name="name" /></label>   
+    </p>
+    <p>
+        <label>Your Email: <input type="email" id="email" name="email" /></label>
+    </p>
+    <p>
+        <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+        <button class="form_submit btn btn-outline-primary" type="submit">Send</button>
+    </p>
+</form>
+
+
+</section>
     </main>
     <footer class="footer container-fluid d-flex flex-wrap justify-content-center py-3 mb-3 border-bottom bg-warning">
 <p> &copy; <strong>Sophie</strong> 2023</p>
