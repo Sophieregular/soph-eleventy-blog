@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creating my first eleventy blog</title>
+    <title>Creating my first blog using Eleventy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -32,15 +32,45 @@
     <main class="py-5">
         
  <article class="container justify-content-center text-center py-5 border-bottom border-secondary">    
-    <img class="img-fluid col justify-content-center" src="&#92;assets&#92;eleventy-logo-wide.jpg" alt="Screenshot of my blog">
-                    <h1 class= pt-3>Creating my first eleventy blog</h1>
+    <div class="py-3 container border-bottom border-secondary">
+        <img class="img-fluid col justify-content-center" src="&#92;assets&#92;eleventy-logo-wide.jpg" alt="Eleventy Logo">
+                 <h1 class= pt-3>Creating my first blog using Eleventy</h1>
                     <p><small class="text-muted">Written by Sophie</small></p>
-                    <p>Tue Oct 10 2023 01:00:00 GMT+0100 (British Summer Time)</p>
-                
-            <p>lorem ipsum blah blah blah blah</p>
+                <p>Tue Oct 10 2023 01:00:00 GMT+0100 (British Summer Time)</p>
+        </div>            
+                <main class="py-5">
+                        <p><strong>Hello - welcome to my first Eleventy blog post!</strong></p>
+<p>I've built this as part of my 'working with static sites' assignment with the Coders' Guild.</p>
+<p>This week we learned about Static Sites &amp; Static Site Generators. We learned how they work in comparison with other dynamic website setups - which usually work with a backend server, and handle more complex features &amp; data. The SSG platform we're using to build our blogs is Eleventy - which is a generating platform part of a model that's known as the JAMStack, which stands for Javascript, API &amp; Markup.</p>
+<p>Though I was familiar with Static sites (being a child of the 90's and growing up with Web 1.0), I'd never used a Static Site Generator before and I'd definitely never used a JAMStack model to build a website. In our lesson we deployed a base Eleventy blog template via Netlify &amp; Github, which we could then use to customise and set up for our own personal use.</p>
+<img class="img-fluid col justify-content-center py-3" src="/assets/old-eleventy-blog.png" alt="My old Eleventy Blog" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/old-blog-scripts.png" alt="My old Eleventy Blog" width="550" height="315">
+<p>I <em>really</em> struggled with the template when I first encountered it. I'd never used nunjucks before and I was completely unfamiliar with using templating languages to build web pages, having previously only ever worked with html and css stylesheets. I didn't understand how the different folders responded to each other, how the _site folder worked and why I couldn't put content in it - because that's where the indexes were?!</p>
+<p>I also found all of the additional plugins and features that came bundled with the template really overwhelming and confusing. Even after googling and reading documentation on the website, I didn't understand how the different scripts interacted with each other - which then also made it difficult to edit, because I wasn't sure what features were critical for all of the plug-ins to work.</p>
+<p>I submitted the original template (with a broken link to a logo, lol) for the week's assignment - but I knew if I was going to create anything even remotely functional, I was going to have to go back to basics and learn how the platform worked from the ground up.</p>
+<div class= "py-3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4wD00RT6d-g?si=V_jceMQliKlZZjWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class= "py-3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7G5m6RDZ6cU?si=8JucHd77sF7KwQ6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class= "py-3">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BKdQEXqfFA0?si=yyqjtu0G8dLj2cM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class= "py-3">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kzf9A9tkkl4?si=Cs4vb0ToXcytkRAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class= "py-3">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uzM5lETc6Sg?si=OC805HVlCaJ6N5AS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p>I used a mix of these videos and tutorials online to go back and set my own blog up from scratch. Though it was a more time consuming process - I'm <em>really</em> thankful that I took the time out to do it. I learned so much through doing it - including using a lot of processes and languages I'd never used before like node.js, json, javascript configuration as well as nunjucks itself.</p>
+<p>The bit i'm most proud of is that the blog itself is a functional template! It's not entirely hard-code free (we're using Bootstrap as our styling framework, so all of the styling is 'inline' so to speak) - but the headers and footers are complete independant from each page, set up as nunjucks templates in the _includes folder. The templates all talk to each other using the {#%- includes -%#} tags which meant that I didn't have to copy and paste elements over and over again - I could just include each template at a time, as and when I needed it.</p>
+<p>Using front matter and templates like this has been a total gamechanger for me. Being able to code a blog platform from scratch that I don't have to manually update every time I make style changes to something is really cool. In the future, I would like to learn more CSS &amp; Sass to be able to more the styling more global and customisable.</p>
 
-        <a class="btn btn-outline-primary" href="/blog" role="button">Back to all posts</a>
-
+                 </main>
+         <div class="pt-5">
+                <a class="btn btn-outline-primary " href="/blog" role="button">Back to all posts</a>
+        </div>
 </article>
     </main>
     <footer class="footer container-fluid d-flex flex-wrap justify-content-center py-3 mb-3 border-bottom bg-warning">
