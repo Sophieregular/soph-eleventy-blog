@@ -10,3 +10,10 @@ return {
     },
 }
 }
+function validateForm() {
+    let x = document.forms["contact"]["email"].value;
+    if (x == "") {
+      alert("Please add your email so we can get back to you!");
+      return false;
+    }
+  }
