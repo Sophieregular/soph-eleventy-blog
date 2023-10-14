@@ -1,0 +1,14 @@
+---
+layout: 'base.njk'
+---
+
+ <article class="container justify-content-center text-center py-5 border-bottom border-secondary">    
+    <img class="img-fluid col justify-content-center" src="{{ image }}" alt="{{ imageAlt }}">
+                    <h1 class= pt-3>{{ title }}</h1>
+                    <p><small class="text-muted">{{ author }}</small></p>
+                    <p>{{ date }}</p>
+                
+            {{ content | safe }}
+        <a class="btn btn-outline-primary" href="/blog" role="button">Back to all posts</a>
+
+</article>

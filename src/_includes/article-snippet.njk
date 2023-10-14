@@ -1,0 +1,10 @@
+ <div class="container justify-content-center py-5 border-bottom border-secondary">    
+     <li class="list-unstyled text-center">
+            <img class="img-fluid col justify-content-center" src="{{ post.data.image}}" alt="{{post.data.imageAlt}}">
+                    <h2 class= pt-3>{{ post.data.title }}</h2>
+                    <p><small class="text-muted">{{ post.data.author }}</small></p>
+                    <p>{{ post.data.date }}</p>
+                    <p>{{ post.data.description }}</p>
+                    <a class="btn btn-outline-primary" href="{{ post.url }}" role="button">Read here</a>
+        </li>
+</div>
