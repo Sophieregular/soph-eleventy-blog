@@ -2,7 +2,7 @@
 title: Functions and Flow Control in Javascript
 description: Learning basic Javascript functions and putting them to practical use
 author: Written by Sophie
-date: 2023-10-12
+date: 2023-10-10
 tags: "post"
 image: \assets\functions-flow-control-javascript.jpg
 imageAlt: A photo of two people on a walk on a crisp day with the javascript logo on top in the bottom right corner

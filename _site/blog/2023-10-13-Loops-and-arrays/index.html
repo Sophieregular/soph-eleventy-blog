@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops &amp; Arrays in Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center text-center py-3 mb-3 bg-warning">
+    <section>
+    <div class="container">
+      <a href="/"><img src="/assets/soph-logo.svg" alt="Sophie's Logo" width="100px" height="100px"/></a>
+      <h1 class="text-center">Sophie's Eleventy Blog</h1>
+      </div>
+    <nav class=" nav justify-content-center">
+          <ul class="nav-item" >
+            <a class="text-decoration-none" href="/">Home</a>
+          </ul>
+          <ul class="nav-item">
+            <a class="text-decoration-none" href="/blog/">Blog</a>
+          </ul>
+          <ul class="nav-item">
+            <a class="text-decoration-none" href="/contact/">Contact</a>
+          </ul>
+      </nav>
+    </section>
+</header> 
+
+    <main class="py-5">
+        
+ <article class="container justify-content-center text-center py-5 border-bottom border-secondary">    
+    <div class="py-3 container border-bottom border-secondary">
+        <img class="img-fluid col justify-content-center" src="&#92;assets&#92;loops-and-objects.jpg" alt="A photo of a selection of baking ingredients with the with the javascript logo on top in the bottom right corner">
+                 <h1 class= pt-3>Loops &amp; Arrays in Javascript</h1>
+                    <p><small class="text-muted">Written by Sophie</small></p>
+                <p>Fri Oct 13 2023 01:00:00 GMT+0100 (British Summer Time)</p>
+        </div>            
+                <main class="py-5">
+                        <p>This session was focused on arrays, objects and using loops to cycle through and select data within them.</p>
+<p>You can see all the code I wrote for this session over on my codepen: <a href="https://codepen.io/SophieRegular/pen/mdayXqr?editors=0012">codepen.io/SophieRegular/pen/mdayXqr?editors=0012&gt;</a></p>
+<p><strong>TASK 1 - Writing a loop that console logs 1 - 12</strong></p>
+<p>Really easy and simple! I just wrote a for loop that set 'i' as 0, set 'i' as less than 12, then asked javascript to increment it by 1 until it matched.</p>
+<p><strong>TASK 2 - Writing a loop that outputs the multiplication of 7 up to 7 x 12</strong></p>
+<p>Slightly more complicated. Using the loop from the previous task, I then added a console log that displayed the multiples of 7 and asked javascript to multiply i by 7. Justin (the session tutor) also showed us how to make this programme dynamic by setting the multiplyer and endpoint as variables, then using those variables as the values instead of a hard-coded number.</p>
+<p><strong>TASK 3 - writing an array of my favourite foods and printing them to the screen</strong></p>
+<p>Dead simple again! I just created an array, added a list of my favourite foods to it ('sushi','ice cream', 'scones', 'snacks'), then I created a console.log to print them.</p>
+<p><strong>TASK 4 - writing a for loop that prints out a list of my favourite food</strong></p>
+<p>Similar to Task 3 - but instead of just printing it out with a console log we had to write it in a for loop format.</p>
+<p><strong>TASK 5 - creating an object for a recipe list and writing a letsCook function</strong></p>
+<p>Here, we had to create an object that contained several different categories of information for a food recipe. I created a recipe for some carrot cake. In this recipe, there were several key value pairs ('title : Carrot Cake, Servings: 12'), and arrays within the object for different categories ('Ingredients: ['Carrots', 'flour', 'brown sugar', 'cinnamon', 'mixed spice', '2 eggs', 'dried fruit', 'oil',]'),</p>
+<p>After we set this object up, we then had to iterate into the object and find the title - so that we could write a function that output the name of the recipe once it was called. The outcome of this was a function called 'letsCook', which when activated would return the phrase 'I'm hungry, lets cook ${title!}'</p>
+<p>--</p>
+<p>Overall, this session was really helpful for gaining an understanding of navigating arrays and objects. By the end of it I was a lot clearer about how they worked, and the different methods you can use to access them. A lot of the examples we used were fairly simple, but I can definitely see how some of these lists these could get really complicated, really quickly - so knowing how to properly break them down and how to add and remove data from them is really good!</p>
+
+                 </main>
+         <div class="pt-5">
+                <a class="btn btn-outline-primary" href="/blog" role="button">Back to all posts</a>
+        </div>
+</article>
+    </main>
+    <footer class="footer container-fluid d-flex flex-wrap justify-content-center py-3 mb-3 border-bottom bg-warning">
+<p> &copy; <strong>Sophie</strong> 2023</p>
+</footer>
+</body>
+</html>

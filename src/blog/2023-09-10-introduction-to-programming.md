@@ -2,7 +2,7 @@
 title: Introduction to programming & Javascript
 description: It's Javascript time!!! Here's everything I learned in the 'Introduction to programming concepts' session. 
 author: Written by Sophie 
-date: 2023-10-11
+date: 2023-10-09
 tags: "post"
 image: \assets\intro-to-js.png
 imageAlt: A picture of money with the Javascript Logo on top

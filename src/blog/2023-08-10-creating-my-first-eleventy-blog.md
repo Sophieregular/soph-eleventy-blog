@@ -2,7 +2,7 @@
 title: Creating my first blog using Eleventy
 description: All about my first foray into building a JAMstack site and how I managed to get this working (eventually)
 author: Written by Sophie
-date: 2023-10-10
+date: 2023-10-08
 tags: "post"
 image: \assets\eleventy-logo-wide.jpg
 imageAlt: Eleventy Logo

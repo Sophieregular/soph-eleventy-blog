@@ -2,7 +2,7 @@
 title: Understanding and using pseudocode
 description: Learning all about pseudocode, how it's used in an industry setting and how to break down complex coding problems to identify better solutions
 author: Written by Sophie
-date: 2023-10-14
+date: 2023-10-12
 tags: "post"
 image: \assets\pseudocode-library.jpg
 imageAlt: A photo of library shelf full of books

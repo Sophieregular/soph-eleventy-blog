@@ -2,7 +2,7 @@
 title: Functions and Flow Control in Javascript - Practical Session
 description: Taking the knowledge we learned about functions from the previous session and completing more practical tasks
 author: Written by Sophie
-date: 2023-10-13
+date: 2023-10-11
 tags: "post"
 image: \assets\functions-flow-control-practical.jpg
 imageAlt: A photo of multiple people with soft drinks at a table with the javascript logo on top in the bottom right corner

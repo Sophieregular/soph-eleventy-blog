@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions and Flow Control in Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center text-center py-3 mb-3 bg-warning">
+    <section>
+    <div class="container">
+      <a href="/"><img src="/assets/soph-logo.svg" alt="Sophie's Logo" width="100px" height="100px"/></a>
+      <h1 class="text-center">Sophie's Eleventy Blog</h1>
+      </div>
+    <nav class=" nav justify-content-center">
+          <ul class="nav-item" >
+            <a class="text-decoration-none" href="/">Home</a>
+          </ul>
+          <ul class="nav-item">
+            <a class="text-decoration-none" href="/blog/">Blog</a>
+          </ul>
+          <ul class="nav-item">
+            <a class="text-decoration-none" href="/contact/">Contact</a>
+          </ul>
+      </nav>
+    </section>
+</header> 
+
+    <main class="py-5">
+        
+ <article class="container justify-content-center text-center py-5 border-bottom border-secondary">    
+    <div class="py-3 container border-bottom border-secondary">
+        <img class="img-fluid col justify-content-center" src="&#92;assets&#92;functions-flow-control-javascript.jpg" alt="A photo of two people on a walk on a crisp day with the javascript logo on top in the bottom right corner">
+                 <h1 class= pt-3>Functions and Flow Control in Javascript</h1>
+                    <p><small class="text-muted">Written by Sophie</small></p>
+                <p>Tue Oct 10 2023 01:00:00 GMT+0100 (British Summer Time)</p>
+        </div>            
+                <main class="py-5">
+                        <p>This session, we learned about Functions in Javascript and basic flow control. We learned how to write and call functions, how to add returns to get an output from them - as well as basic if &amp; and if else loops to write a set of instructions. We also had a basic introduction to using logic in programming, and how to use logical operators.</p>
+<p>You can see all the code I wrote for this session over on my codepen: <a href="https://codepen.io/SophieRegular/pen/BavPYrz">codepen.io/SophieRegular/pen/BavPYrz&gt;</a></p>
+<p><strong>TASK 1 - Writing a function that outputs a sentence, then calling it</strong></p>
+<p>Our first task was to write a function to output a sentence, then call it to test that it worked. My function outputted to a console log, and I asked it to write <em>&quot;Hello! Here's a sentence written by my function!&quot;</em> - nice and easy!</p>
+<p><strong>TASK 2 - Writing a simple program to combine a first name and a last name inside a function - then updating the function to accept a first and last name as arguments.</strong></p>
+<p>Here we learned about arguements, and how to write functions that utilised arguements to create a desired output.</p>
+<p>My first attempt at this was incorrect because I just wrote a programme that concatenated two strings that I'd set as two const variables. My second attempt was much better, and used an actual arguement and template literals to make the function work.</p>
+<p><strong>TASK 3 - Adding a return statement to the 'name' function, then using that function to set the value of a variable.</strong></p>
+<p>Here we learned how to add return statements, then used the function we'd written to create an additional output. For this task, the first function we wrote returned a 'first' and 'last' name string, then the variables we set combined these into a 'full name' using a console.log function.</p>
+<p><strong>TASK 4 - Converting into an arrow function</strong></p>
+<p>Exactly as it says above. Here we learned about arrow functions - a more modern method of writing functions (without the tradtional 'function' descriptor at the start). Our task was just to convert one of our previously written functions into an arrow syntax instead.</p>
+<p><strong>TASK 4 - Converting into an arrow function</strong></p>
+<p>Exactly as it says above. Here we learned about arrow functions - a more modern method of writing functions (without the tradtional 'function' descriptor at the start). Our task was just to convert one of our previously written functions into an arrow syntax instead.</p>
+<p><strong>TASK 5 - writing a programme for a temperature alert system - &quot;Should I wear a coat today?&quot;</strong></p>
+<p>This task was slightly more extensive. Our first task was to create a function that would tell you to put on a coat if the temperature was less than 50 degrees. Once we did that, we had to write a function that would tell you to put on a coat if it was less than 50, a coat and a hat if it was less than 30 degrees, or to stay indoors if the temperature was below zero.</p>
+<p>Once we'd done that, we were then asked to add a logical operator to this function. The prompt asked - <em>&quot;Do I need to wear a coat today?</em>- and the output would be either a yes or no depending on if the temperature was less than 50 OR less than 30 degrees. If it was true, it would return &quot;Yes, you will need a coat to go outside&quot;. If both were false, it would return a 'No, you don't need to wear a coat today.'</p>
+<p>--</p>
+<p>This was the first time i'd used javascript to write functions like this, and it was really fun to get to use it in some practical examples. I can definitely see lots of situations where a function like the one we wrote in Task 5 would be useful, and I think it could be interesting to expand on this in my own personal time and look at more ways they can be utilised - especially all the different operators!</p>
+
+                 </main>
+         <div class="pt-5">
+                <a class="btn btn-outline-primary" href="/blog" role="button">Back to all posts</a>
+        </div>
+</article>
+    </main>
+    <footer class="footer container-fluid d-flex flex-wrap justify-content-center py-3 mb-3 border-bottom bg-warning">
+<p> &copy; <strong>Sophie</strong> 2023</p>
+</footer>
+</body>
+</html>
