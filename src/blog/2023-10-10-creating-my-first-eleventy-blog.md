@@ -28,24 +28,24 @@ I also found all of the additional plugins and features that came bundled with t
 I submitted the original template (with a broken link to a logo, lol) for the week's assignment - but I knew if I was going to create anything even remotely functional, I was going to have to go back to basics and learn how the platform worked from the ground up. 
 
 <div class= "py-3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4wD00RT6d-g?si=V_jceMQliKlZZjWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="280" height="176" src="https://www.youtube.com/embed/4wD00RT6d-g?si=V_jceMQliKlZZjWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class= "py-3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7G5m6RDZ6cU?si=8JucHd77sF7KwQ6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="280" height="176" src="https://www.youtube.com/embed/7G5m6RDZ6cU?si=8JucHd77sF7KwQ6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class= "py-3">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BKdQEXqfFA0?si=yyqjtu0G8dLj2cM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="280" height="176" src="https://www.youtube.com/embed/BKdQEXqfFA0?si=yyqjtu0G8dLj2cM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 
 <div class= "py-3">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kzf9A9tkkl4?si=Cs4vb0ToXcytkRAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="280" height="176" src="https://www.youtube.com/embed/kzf9A9tkkl4?si=Cs4vb0ToXcytkRAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div class= "py-3">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uzM5lETc6Sg?si=OC805HVlCaJ6N5AS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="280" height="176" src="https://www.youtube.com/embed/uzM5lETc6Sg?si=OC805HVlCaJ6N5AS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 
