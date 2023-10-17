@@ -21,17 +21,17 @@ First, we had to create a html page with links to a variety of 16 animal photos 
 
 Then, we went through step by step as a group to build a programme that would allow users to filter and search for the animals via their 'animalType' and 'alt' attributes. This was the outcome:
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-1.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-1.jpg" alt="A picture of some html I've written" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-2.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-2.jpg" alt="Task 2 JavaScript code" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-3.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-3.jpg" alt="Task 3 JavaScript code" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-4.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-4.jpg" alt="Task 4 JavaScript code" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-5.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-5.jpg" alt="Task 5 JavaScript code" width="550" height="315">
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/dom-6a.jpeg" alt="A picture of some html I've written" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/dom-6a.jpg" alt="Task 6 JavaScript code" width="550" height="315">
 
 --
 
