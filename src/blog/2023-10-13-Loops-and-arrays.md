@@ -5,7 +5,7 @@ author: Written by Sophie
 date: 2023-10-13
 tags: "post"
 image: \assets\loops-and-objects.jpg
-imageAlt: A photo of a selection of baking ingredients with the with the javascript logo on top in the bottom right corner
+imageAlt: A photo of a selection of baking ingredients with the javascript logo on top in the bottom right corner
 alt: A blog about loops and arrays in javascript
 ---
 
