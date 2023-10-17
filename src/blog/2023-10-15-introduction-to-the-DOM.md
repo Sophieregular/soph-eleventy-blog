@@ -17,7 +17,7 @@ You can find links to all of the tasks I completed for this session over on my c
 
 The DOM - which is shorthand for the 'Document Object Model', is a method of structuring webpages. In our lesson, we learned how the DOM works - how webpages are structured like trees, with each element on the page being nested within each other, like branches. 
 
-<img class="img-fluid col justify-content-center py-3" src="/assets/the-dom.png" alt="W3 School's flowchart of the DOM" width="550" height="315">
+<img class="img-fluid col justify-content-center py-3" src="/assets/the-dom.jpg" alt="W3 School's flowchart of the DOM" width="550" height="315">
 
 We learned that the content of a website gets loaded into an JavaScript object, called 'document'. This object can then be treated much like other objects in JavaScript. You can use different selectors with dot notations to isolate and select different nodes within a webpage's structure and edit them.
 
