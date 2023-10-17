@@ -4,7 +4,7 @@ description: An introduction the DOM (Document Object Model) and using JavaScrip
 author: Written by Sophie
 date: 2023-10-15
 tags: "post"
-image: \assets\into-to-the-DOM.jpg
+image: \assets\intro-to-the-DOM.jpg
 imageAlt: A photo of a tree in a field with the javascript logo on top in the bottom right corner
 alt: A blog about using the Document Object Model in Javascript to edit webpages
 ---
