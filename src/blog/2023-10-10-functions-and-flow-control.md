@@ -19,9 +19,9 @@ Our first task was to write a function to output a sentence, then call it to tes
 
 <strong>TASK 2 - Writing a simple program to combine a first name and a last name inside a function - then updating the function to accept a first and last name as arguments.</strong>
 
-Here we learned about arguements, and how to write functions that utilised arguements to create a desired output. 
+Here we learned about arguments, and how to write functions that utilised arguments to create a desired output. 
 
-My first attempt at this was incorrect because I just wrote a programme that concatenated two strings that I'd set as two const variables. My second attempt was much better, and used an actual arguement and template literals to make the function work. 
+My first attempt at this was incorrect because I just wrote a programme that concatenated two strings that I'd set as two const variables. My second attempt was much better, and used an actual argument and template literals to make the function work. 
 
 <strong>TASK 3 - Adding a return statement to the 'name' function, then using that function to set the value of a variable.</strong>
 
